@@ -16,7 +16,7 @@ If not, download and install it from here: https://www.python.org/downloads/
 {"KEY":"YOUR_API_KEY", "SECRET":"YOUR_API_SECRET"}
 ```
 
-4. Install software requirements for this script by typing this command into the terminal
+4. Install software requirements for this script by typing this command into the terminal. You may choose to use a virtual environment (see below).
 
 `pip3 install -r requirements.txt`
 
@@ -47,3 +47,10 @@ Large-sized (1024px width) will be downloaded by default. You can download the o
 Limit the number of pages of results downloaded by passing `--max-pages N` where `N` is pages of 500 results each.
 
 `python scraper.py --search "cicada" --max-pages 1`
+
+
+# Use a Virtual Environment
+
+`python3 -m venv env`
+`source env/bin/activate`
+`pip install -r requirements.txt`
