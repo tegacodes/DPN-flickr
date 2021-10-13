@@ -49,7 +49,7 @@ Limit the number of pages of results downloaded by passing `--max-pages N` where
 `python scraper.py --search "cicada" --max-pages 1`
 
 
-# Use a Virtual Environment
+## Use a Virtual Environment
 
 `python3 -m venv env`
 `source env/bin/activate`
