@@ -51,6 +51,6 @@ Limit the number of pages of results downloaded by passing `--max-pages N` where
 
 ## Use a Virtual Environment
 
-`python3 -m venv env`
-`source env/bin/activate`
-`pip install -r requirements.txt`
+`python3 -m venv env`  
+`source env/bin/activate`  
+`pip install -r requirements.txt`  
