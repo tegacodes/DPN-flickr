@@ -24,6 +24,8 @@ If not, download and install it from here: https://www.python.org/downloads/
 
 `python3 scraper.py --search "Tega Brain"`
 
+Note. If you want to stop the scraper running (without closing the terminal window). Press CNTRL + C (this shortcut stops terminal processes)
+
 ## Usage
 
 
